@@ -1,10 +1,19 @@
-## My personal website
+# My homepage
 
-# Current repository?
+Created with Three.js.
 
-Current repository for Github Page is simohoffNebula (state: 05.04.21).
-Build with Three.js
+## Setup
 
-# Run the local server at localhost:8000
+Download [Node.js](https://nodejs.org/en/download/).
+Run this followed commands:
 
-serve
+```bash
+# Install dependencies (only the first time)
+npm install
+
+# Run the local server at localhost:8080
+npm run dev
+
+# Build for production in the dist/ directory
+npm run build
+```
